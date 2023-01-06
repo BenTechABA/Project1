@@ -1,0 +1,38 @@
+main > .main-section{
+    background-image: url(../Images/memories-are-us-FkqzW25udQg-unsplash.jpg);
+    height: 25rem;
+    width: 100vw;
+    padding: 1rem;
+    text-align: center;
+}
+p{
+    padding: 1rem;
+}
+h1{
+    width:auto;
+    background-color: gold;
+    color:black;
+    font-size: 3rem;
+}
+.p1{
+    display: inline-flex;
+    background-color: red;
+}
+.p2{
+    display: inline-flex;
+    background-color: orange;
+}
+.p3{
+    display: inline-grid;
+    background-color: blue;
+}
+article{
+    margin:0.1rem;
+    border: 0.1rem solid black;
+}
+.bottom > .content-wrapper > .vision{
+    text-align: center;
+}
+main > .bottom > figure > img{
+    width: 50vw;
+}
