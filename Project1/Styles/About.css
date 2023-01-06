@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.main-section{
+    background-image: url(../Images/emy-XoByiBymX20-unsplash.jpg);
+    
+    background-position:center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    height:30rem;
+    width:100vw;
+  
+   
+}
+main > .main-section > .content-section{
+    text-align: center;
+}
+h1{
+    font-size: 2rem;
+}
+.difA{
+    background-color: #11122b;
+}
+li{
+    padding: 0;
+}
+.content-section > h1{
+    background-color: blue;
+    /* width:fit-content; */
+    color: white;
+}
+.content-section > p{
+    /* width:fit-content; */
+    background-color: rgb(226, 51, 51);
+    color: wheat;
+}
+
+main > .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    width: 100vw;
+}
+main > .bottom > figure{
+    text-align: left;
+    padding-right: 2rem;
+}
+main > .bottom > figure > img{
+    width: 50vw;
+    height: 15rem;
+}
+main > .bottom > .content-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+}
+.spacer{
+    color: white;
+    width: 100vw;
+}
+.vision{
+    padding-right: 1rem;
+}
+@media screen and (max-width:640px){
+    main > .bottom{
+        display: grid;
+        
+    }
+    main > .bottom > figure > img{
+        width: 100vw;
+    }
+    main > .bottom > figure{
+        padding: 0;
+    }
+}
